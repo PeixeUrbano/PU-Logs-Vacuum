@@ -1,0 +1,13 @@
+{
+    "vacuums" : [
+        {
+            "path" : "/some/log/path/",
+            "filesPrefix" : "server*",
+            "removeLogs" : true,
+            "compressor" : "tar.gz",
+            "outputPath" : "/some/backup/path/",
+            "outputName" : "logs.2006-01.tag.gz",
+            "updateOutput" : true
+        }
+    ]
+}
